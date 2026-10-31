@@ -1,0 +1,6 @@
+{
+  "name": "SUBCON 2027 — 10th Edition Industrial Outsourcing Fair",
+  "description": "Official attendee portal for SUBCON 2027 (12th–14th May 2027) at CODISSIA Trade Fair Complex, Coimbatore. Explore manufacturing processes, interactive workshop schedules, speaker profiles, and exhibition visual galleries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

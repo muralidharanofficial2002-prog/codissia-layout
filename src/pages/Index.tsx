@@ -281,7 +281,7 @@ export default function Index() {
               className="flex items-center px-2.5 py-1 transition-transform duration-300 hover:scale-[1.02] shrink-0"
             >
               <img
-                src="/assets/aistudio/subcon_2027_logo_d983b746.png"
+                src="./assets/aistudio/subcon_2027_logo_d983b746.png"
                 alt="SUBCON 2027 — 10th Edition Source For Successful Outsourcing"
                 className="h-8 md:h-9 w-auto object-contain"
               />
@@ -539,7 +539,7 @@ export default function Index() {
                 className="inline-flex items-center bg-white rounded-2xl px-5 py-3 shadow-lg border border-[#009EE2]/20 transition-transform duration-300 hover:scale-[1.02]"
               >
                 <img
-                  src="/assets/aistudio/subcon_2027_logo_d983b746.png"
+                  src="./assets/aistudio/subcon_2027_logo_d983b746.png"
                   alt="SUBCON 2027 — 10th Edition Source For Successful Outsourcing"
                   className="h-9 md:h-10 w-auto object-contain"
                 />

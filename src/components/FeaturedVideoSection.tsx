@@ -18,7 +18,7 @@ const INDUSTRIAL_REEL_SCENES = [
     badge: 'Hall A · Live Machine Demo',
     title: 'CNC Fiber Laser & Sheet Metal Fabrication',
     caption: 'Sub-millimeter nitrogen-assisted fiber laser cutting live on the CODISSIA floor.',
-    image: '/assets/subcon/hd_glimpse_05.jpg',
+    image: './assets/subcon/hd_glimpse_05.jpg',
   },
   {
     id: 'reel-pricol',
@@ -26,7 +26,7 @@ const INDUSTRIAL_REEL_SCENES = [
     badge: 'Tier-1 Automotive Buyer',
     title: 'PRICOL Limited Flagship Engineering Stall',
     caption: 'Direct B2B component matchmaking for sensors, actuators, and automotive clusters.',
-    image: '/assets/subcon/hd_exhibitor_pricol.jpg',
+    image: './assets/subcon/hd_exhibitor_pricol.jpg',
   },
   {
     id: 'reel-forging',
@@ -34,7 +34,7 @@ const INDUSTRIAL_REEL_SCENES = [
     badge: '40% of South India Castings',
     title: 'Heavy Ring Forging & Investment Casting',
     caption: 'High-tonnage closed-die forgings and non-ferrous castings for energy and rail.',
-    image: '/assets/subcon/cover_forging.jpg',
+    image: './assets/subcon/cover_forging.jpg',
   },
   {
     id: 'reel-erfolg',
@@ -42,7 +42,7 @@ const INDUSTRIAL_REEL_SCENES = [
     badge: 'Turnkey Sub-Assemblies',
     title: 'ERFOLG Industries Precision Pavilion',
     caption: 'Multi-axis machined assemblies and custom industrial tooling solutions.',
-    image: '/assets/subcon/hd_exhibitor_erfolg.jpg',
+    image: './assets/subcon/hd_exhibitor_erfolg.jpg',
   },
 ];
 

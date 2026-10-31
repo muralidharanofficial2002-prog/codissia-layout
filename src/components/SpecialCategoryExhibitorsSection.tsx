@@ -32,43 +32,43 @@ const SUPPORTERS: SupporterItem[] = [
     id: 'msme',
     name: 'Ministry of Micro, Small & Medium Enterprises',
     shortLabel: 'Ministry of MSME',
-    logoUrl: '/assets/subcon/supporter_msme.jpg',
+    logoUrl: './assets/subcon/supporter_msme.jpg',
   },
   {
     id: 'ppdc',
     name: 'Process and Product Development Centre',
     shortLabel: 'PPDC',
-    logoUrl: '/assets/subcon/supporter_ppdc.jpg',
+    logoUrl: './assets/subcon/supporter_ppdc.jpg',
   },
   {
     id: 'nsic',
     name: 'National Small Industries Corporation',
     shortLabel: 'NSIC',
-    logoUrl: '/assets/subcon/supporter_nsic.jpg',
+    logoUrl: './assets/subcon/supporter_nsic.jpg',
   },
   {
     id: 'fametn',
     name: 'Facilitating MSMEs Tamil Nadu',
     shortLabel: 'FaMeTN',
-    logoUrl: '/assets/subcon/supporter_fametn.jpg',
+    logoUrl: './assets/subcon/supporter_fametn.jpg',
   },
   {
     id: 'cdiic',
     name: 'CODISSIA Defense Innovation & Atal Incubation Centre',
     shortLabel: 'CDIIC',
-    logoUrl: '/assets/subcon/supporter_cdiic.jpg',
+    logoUrl: './assets/subcon/supporter_cdiic.jpg',
   },
   {
     id: 'niti',
     name: 'NITI Aayog — Government of India',
     shortLabel: 'NITI Aayog',
-    logoUrl: '/assets/subcon/supporter_niti.jpg',
+    logoUrl: './assets/subcon/supporter_niti.jpg',
   },
   {
     id: 'aim',
     name: 'Atal Innovation Mission',
     shortLabel: 'AIM',
-    logoUrl: '/assets/subcon/supporter_aim.jpg',
+    logoUrl: './assets/subcon/supporter_aim.jpg',
   },
 ];
 
@@ -80,8 +80,8 @@ const SPECIAL_EXHIBITORS: SpecialExhibitorItem[] = [
     companyName: 'Pricol Limited',
     tagline:
       'Driver Information Systems, Sensors, Actuators & Precision Automotive Sub-Assemblies',
-    stallImageUrl: '/assets/subcon/hd_exhibitor_pricol.jpg',
-    logoImageUrl: '/assets/subcon/special_logo_pricol.jpg',
+    stallImageUrl: './assets/subcon/hd_exhibitor_pricol.jpg',
+    logoImageUrl: './assets/subcon/special_logo_pricol.jpg',
   },
   {
     id: 'gold-erfolg',
@@ -90,8 +90,8 @@ const SPECIAL_EXHIBITORS: SpecialExhibitorItem[] = [
     companyName: 'ERFOLG Industries',
     tagline:
       'Precision Machined Components, Industrial Sub-Assemblies & Engineering Solutions',
-    stallImageUrl: '/assets/subcon/hd_exhibitor_erfolg.jpg',
-    logoImageUrl: '/assets/subcon/special_logo_erfolg.jpg',
+    stallImageUrl: './assets/subcon/hd_exhibitor_erfolg.jpg',
+    logoImageUrl: './assets/subcon/special_logo_erfolg.jpg',
   },
   {
     id: 'silver-alpine',
@@ -100,8 +100,8 @@ const SPECIAL_EXHIBITORS: SpecialExhibitorItem[] = [
     companyName: 'Alpine Tape Pvt Ltd',
     tagline:
       'Industrial Adhesive Tapes, Custom B2B Packaging & Protective Surface Solutions (Since 2011)',
-    stallImageUrl: '/assets/subcon/special_stall_alpine.jpg',
-    logoImageUrl: '/assets/subcon/special_logo_alpine.jpg',
+    stallImageUrl: './assets/subcon/special_stall_alpine.jpg',
+    logoImageUrl: './assets/subcon/special_logo_alpine.jpg',
   },
 ];
 
@@ -156,7 +156,7 @@ export default function SpecialCategoryExhibitorsSection() {
                   setSelectedLightboxImage({
                     title: 'Our Special Category Exhibitors - SUBCON 2025',
                     subtitle: 'Official Brochure Showcase Sheet',
-                    imageUrl: '/assets/aistudio/subcon-09_1d27bd94.jpg',
+                    imageUrl: './assets/aistudio/subcon-09_1d27bd94.jpg',
                   })
                 }
                 className="linea-btn-fill bg-white text-[#1E2022] rounded-full px-5 py-3 text-xs font-bold flex items-center gap-2 cursor-pointer shadow-md"
@@ -167,7 +167,7 @@ export default function SpecialCategoryExhibitorsSection() {
 
               <div className="linea-logo-pedestal p-1.5">
                 <img
-                  src="/assets/subcon/special_connect_badge.jpg"
+                  src="./assets/subcon/special_connect_badge.jpg"
                   alt="An Event to Connect Buyers + Manufacturers"
                   className="h-12 md:h-14 w-auto object-contain rounded-lg"
                 />
@@ -238,7 +238,7 @@ export default function SpecialCategoryExhibitorsSection() {
               </div>
               <div className="bg-white rounded-xl px-4 py-2 border border-[#1E2022]/10 shrink-0">
                 <img
-                  src="/assets/subcon/partner_texas.jpg"
+                  src="./assets/subcon/partner_texas.jpg"
                   alt="Texas Ventures — Conference Partner"
                   className="h-9 w-auto object-contain"
                 />
@@ -256,7 +256,7 @@ export default function SpecialCategoryExhibitorsSection() {
               </div>
               <div className="bg-white rounded-xl px-4 py-2 border border-[#1E2022]/10 shrink-0">
                 <img
-                  src="/assets/subcon/partner_industry40.jpg"
+                  src="./assets/subcon/partner_industry40.jpg"
                   alt="Industry 4.0 — E-Magazine Partner"
                   className="h-10 w-auto object-contain"
                 />

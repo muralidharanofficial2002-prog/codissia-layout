@@ -246,7 +246,7 @@ export default function AboutSection({ onOpenRegistration }: AboutSectionProps) 
         <div className="mt-12 md:mt-16 grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
           <div className="lg:col-span-8">
             <LineaWindowReveal
-              imageUrl="/assets/subcon/codissia_complex.jpg"
+              imageUrl="./assets/subcon/codissia_complex.jpg"
               imageAlt="CODISSIA Trade Fair Complex, Coimbatore"
               className="h-full min-h-[340px] sm:min-h-[400px]"
             >
@@ -280,7 +280,7 @@ export default function AboutSection({ onOpenRegistration }: AboutSectionProps) 
               className="relative h-full min-h-[340px] sm:min-h-[400px] rounded-[1.75rem] overflow-hidden bg-[#1E2022] text-white p-6 sm:p-8 flex flex-col justify-between cursor-pointer group border border-[#009EE2]/25"
             >
               <img
-                src="/assets/subcon/inauguration_2025.jpg"
+                src="./assets/subcon/inauguration_2025.jpg"
                 alt="SUBCON Inauguration and PSU Buyer-Seller Meet"
                 referrerPolicy="no-referrer"
                 className="absolute inset-0 w-full h-full object-cover opacity-55 transition-transform duration-700 group-hover:scale-105"

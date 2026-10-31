@@ -127,7 +127,7 @@ export default function PhilosophySection() {
                 className="relative aspect-[16/10] rounded-[1.5rem] overflow-hidden bg-[#1E2022] cursor-pointer group border border-white/10"
               >
                 <img
-                  src="/assets/subcon/hd_factory_engineers.jpg"
+                  src="./assets/subcon/hd_factory_engineers.jpg"
                   alt="Shop-Floor Quality Audit"
                   referrerPolicy="no-referrer"
                   className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${
@@ -135,7 +135,7 @@ export default function PhilosophySection() {
                   }`}
                 />
                 <img
-                  src="/assets/subcon/cover_cnc_sparks.jpg"
+                  src="./assets/subcon/cover_cnc_sparks.jpg"
                   alt="5-Axis CNC Execution"
                   referrerPolicy="no-referrer"
                   className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${
@@ -171,7 +171,7 @@ export default function PhilosophySection() {
           <div className="lg:col-span-5 space-y-5">
             <div className="rounded-[1.5rem] overflow-hidden bg-[#272A2E] border border-[#009EE2]/25 p-5 flex items-center gap-4">
               <img
-                src="/assets/subcon/glimpse_02.jpg"
+                src="./assets/subcon/glimpse_02.jpg"
                 alt="Defence and Central PSU Buyers"
                 referrerPolicy="no-referrer"
                 className="w-24 h-24 rounded-2xl object-cover shrink-0"
@@ -192,7 +192,7 @@ export default function PhilosophySection() {
 
             <div className="rounded-[1.5rem] overflow-hidden bg-[#272A2E] border border-[#EF7F1A]/25 p-5 flex items-center gap-4">
               <img
-                src="/assets/subcon/process_machining.jpg"
+                src="./assets/subcon/process_machining.jpg"
                 alt="Make in India Precision Manufacturers"
                 referrerPolicy="no-referrer"
                 className="w-24 h-24 rounded-2xl object-cover shrink-0"

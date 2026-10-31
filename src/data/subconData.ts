@@ -86,7 +86,7 @@ export const EVENT_INFO = {
   mobiles: ['75028 22000', '83449 22000', '74026 15182'],
   email: 'subcon@codissia.com',
   website: 'www.subcon.codissia.com',
-  brochurePdfUrl: '/assets/aistudio/Subcon_2027_-_Brochure__C__R-compressed__1__0f8d97db.pdf',
+  brochurePdfUrl: './assets/aistudio/Subcon_2027_-_Brochure__C__R-compressed__1__0f8d97db.pdf',
 };
 
 export const OBJECTIVES_LIST: string[] = [
@@ -120,7 +120,7 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
     number: '01',
     title: 'Casting, Moulding & Forging',
     subtitle: 'Ferrous, Non-Ferrous & Precision Investment Castings',
-    image: '/assets/subcon/process_casting.jpg',
+    image: './assets/subcon/process_casting.jpg',
     video: 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4',
     capabilities: [
       'Centrifugal casting (Industrial)',
@@ -137,7 +137,7 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
     number: '02',
     title: 'Precision CNC Machining',
     subtitle: 'Multi-Axis Milling, Turning & Gear Cutting',
-    image: '/assets/subcon/process_machining.jpg',
+    image: './assets/subcon/process_machining.jpg',
     video: 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260324_151826_c7218672-6e92-402c-9e45-f1e0f454bdc4.mp4',
     capabilities: [
       'VMC Milling & CNC Turning',
@@ -154,7 +154,7 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
     number: '03',
     title: 'Joining & Fabrication',
     subtitle: 'Certified Structural & High-Pressure Welding',
-    image: '/assets/subcon/process_joining.jpg',
+    image: './assets/subcon/process_joining.jpg',
     capabilities: [
       'Arc Welding',
       'TIG Welding (GTAW)',
@@ -169,7 +169,7 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
     number: '04',
     title: 'Abrasive & Super Finishing Process',
     subtitle: 'Surface Geometry, Plating & Anodizing',
-    image: '/assets/subcon/process_abrasive.jpg',
+    image: './assets/subcon/process_abrasive.jpg',
     capabilities: [
       'Precision Grinding, Lapping & Honing',
       'Tumbling, Vibratory Finishing & Buffing',
@@ -184,7 +184,7 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
     number: '05',
     title: 'Sheet Metal Process',
     subtitle: 'High-Speed Forming, Deep Drawing & Enclosures',
-    image: '/assets/subcon/process_sheet_metal.jpg',
+    image: './assets/subcon/process_sheet_metal.jpg',
     capabilities: [
       'CNC Punching & Blanking',
       'Deep Drawing for Complex Shells',
@@ -199,7 +199,7 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
     number: '06',
     title: 'Industrial Coatings',
     subtitle: 'Heavy-Duty Protective & Functional Polymers',
-    image: '/assets/subcon/process_coatings.jpg',
+    image: './assets/subcon/process_coatings.jpg',
     capabilities: [
       'Epoxy Coatings',
       'Polyurethane Coatings',
@@ -214,7 +214,7 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
     number: '07',
     title: 'Advanced & Additive Processes',
     subtitle: 'Heat Treatment, Laser/Waterjet & 3D Printing',
-    image: '/assets/subcon/process_laser_other.jpg',
+    image: './assets/subcon/process_laser_other.jpg',
     capabilities: [
       'Controlled Atmosphere Heat Treatment',
       'Fiber Laser Cutting & Abrasive Water Jet Cutting',
@@ -226,21 +226,21 @@ export const PROCESS_CATEGORIES: ProcessCategory[] = [
 ];
 
 export const PARTS_CATEGORIES: PartCategory[] = [
-  { id: 'pump-motor', title: 'Pump & Motor Industry', sector: 'Fluid & Rotating Equipment', image: '/assets/subcon/part_pump_motor.jpg' },
-  { id: 'foundry-equip', title: 'Foundry Equipment & Its Products', sector: 'Metallurgy & Casting', image: '/assets/subcon/part_foundry.jpg' },
-  { id: 'textile-spares', title: 'Textile Machinery Spares', sector: 'Spinning & Weaving OEMs', image: '/assets/subcon/part_textile.jpg' },
-  { id: 'tools-die', title: 'Tools, Die & Mould', sector: 'Precision Tooling', image: '/assets/subcon/part_tools_die.jpg' },
-  { id: 'automation', title: 'Automation Equipment', sector: 'Robotics & Industry 4.0', image: '/assets/subcon/part_automation.jpg' },
-  { id: 'machine-tools', title: 'Machine Tools and Accessories', sector: 'CNC & Workholding', image: '/assets/subcon/part_machine_tools.jpg' },
-  { id: 'material-handling', title: 'Material Handling Equipments', sector: 'Intralogistics & Lifts', image: '/assets/subcon/part_material_handling.jpg' },
-  { id: 'process-machinery', title: 'Process Machineries', sector: 'Industrial Conveying', image: '/assets/subcon/part_process_machinery.jpg' },
-  { id: 'gears', title: 'Gears & Transmission', sector: 'Power Transmission', image: '/assets/subcon/part_gears.jpg' },
-  { id: 'machined-parts', title: 'Machined & Fabricated Parts', sector: '5-Axis & Impellers', image: '/assets/subcon/part_machined_parts.jpg' },
-  { id: 'auto-components', title: 'Auto & Auto Components', sector: 'Tier-1 & Tier-2 Automotive', image: '/assets/subcon/part_auto_components.jpg' },
-  { id: 'plastic-polymer', title: 'Plastic and Polymer Products', sector: 'Industrial Moulding', image: '/assets/subcon/part_plastic_polymer.jpg' },
-  { id: 'hydraulics', title: 'Hydraulics & Pneumatics', sector: 'Cylinders & Actuators', image: '/assets/subcon/part_hydraulics.jpg' },
-  { id: 'packaging', title: 'Packaging Machinery', sector: 'Automated Form-Fill-Seal', image: '/assets/subcon/part_packaging.jpg' },
-  { id: 'electrical', title: 'Electrical & Electronics', sector: 'Embedded PCBs & Controls', image: '/assets/subcon/part_electrical.jpg' },
+  { id: 'pump-motor', title: 'Pump & Motor Industry', sector: 'Fluid & Rotating Equipment', image: './assets/subcon/part_pump_motor.jpg' },
+  { id: 'foundry-equip', title: 'Foundry Equipment & Its Products', sector: 'Metallurgy & Casting', image: './assets/subcon/part_foundry.jpg' },
+  { id: 'textile-spares', title: 'Textile Machinery Spares', sector: 'Spinning & Weaving OEMs', image: './assets/subcon/part_textile.jpg' },
+  { id: 'tools-die', title: 'Tools, Die & Mould', sector: 'Precision Tooling', image: './assets/subcon/part_tools_die.jpg' },
+  { id: 'automation', title: 'Automation Equipment', sector: 'Robotics & Industry 4.0', image: './assets/subcon/part_automation.jpg' },
+  { id: 'machine-tools', title: 'Machine Tools and Accessories', sector: 'CNC & Workholding', image: './assets/subcon/part_machine_tools.jpg' },
+  { id: 'material-handling', title: 'Material Handling Equipments', sector: 'Intralogistics & Lifts', image: './assets/subcon/part_material_handling.jpg' },
+  { id: 'process-machinery', title: 'Process Machineries', sector: 'Industrial Conveying', image: './assets/subcon/part_process_machinery.jpg' },
+  { id: 'gears', title: 'Gears & Transmission', sector: 'Power Transmission', image: './assets/subcon/part_gears.jpg' },
+  { id: 'machined-parts', title: 'Machined & Fabricated Parts', sector: '5-Axis & Impellers', image: './assets/subcon/part_machined_parts.jpg' },
+  { id: 'auto-components', title: 'Auto & Auto Components', sector: 'Tier-1 & Tier-2 Automotive', image: './assets/subcon/part_auto_components.jpg' },
+  { id: 'plastic-polymer', title: 'Plastic and Polymer Products', sector: 'Industrial Moulding', image: './assets/subcon/part_plastic_polymer.jpg' },
+  { id: 'hydraulics', title: 'Hydraulics & Pneumatics', sector: 'Cylinders & Actuators', image: './assets/subcon/part_hydraulics.jpg' },
+  { id: 'packaging', title: 'Packaging Machinery', sector: 'Automated Form-Fill-Seal', image: './assets/subcon/part_packaging.jpg' },
+  { id: 'electrical', title: 'Electrical & Electronics', sector: 'Embedded PCBs & Controls', image: './assets/subcon/part_electrical.jpg' },
 ];
 
 export const VISITOR_PROFILES: string[] = [
@@ -287,7 +287,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 300,
     registeredCount: 248,
-    image: '/assets/subcon/inauguration_2025.jpg',
+    image: './assets/subcon/inauguration_2025.jpg',
   },
   {
     id: 'ws-day1-psu-defence',
@@ -310,7 +310,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 180,
     registeredCount: 162,
-    image: '/assets/subcon/glimpse_02.jpg',
+    image: './assets/subcon/glimpse_02.jpg',
   },
   {
     id: 'ws-day1-casting-metallurgy',
@@ -333,7 +333,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 120,
     registeredCount: 94,
-    image: '/assets/subcon/process_casting.jpg',
+    image: './assets/subcon/process_casting.jpg',
   },
   {
     id: 'ws-day2-railways-shipyard',
@@ -356,7 +356,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 200,
     registeredCount: 175,
-    image: '/assets/subcon/glimpse_07.jpg',
+    image: './assets/subcon/glimpse_07.jpg',
   },
   {
     id: 'ws-day2-multi-axis-cnc',
@@ -379,7 +379,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 150,
     registeredCount: 128,
-    image: '/assets/subcon/process_machining.jpg',
+    image: './assets/subcon/process_machining.jpg',
   },
   {
     id: 'ws-day2-tancam-industry40',
@@ -402,7 +402,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 160,
     registeredCount: 141,
-    image: '/assets/subcon/part_automation.jpg',
+    image: './assets/subcon/part_automation.jpg',
   },
   {
     id: 'ws-day3-surface-coatings',
@@ -425,7 +425,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 120,
     registeredCount: 89,
-    image: '/assets/subcon/process_abrasive.jpg',
+    image: './assets/subcon/process_abrasive.jpg',
   },
   {
     id: 'ws-day3-cluster-b2b',
@@ -448,7 +448,7 @@ export const WORKSHOP_SESSIONS: WorkshopSession[] = [
     ],
     capacity: 250,
     registeredCount: 196,
-    image: '/assets/subcon/exhibitor_erfolg.jpg',
+    image: './assets/subcon/exhibitor_erfolg.jpg',
   },
 ];
 
@@ -459,8 +459,8 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     designation: 'Chairman, PRICOL LIMITED, Coimbatore',
     organization: 'PRICOL Limited (Principal Category Exhibitor & Inaugural Chief Guest)',
     categoryLabel: 'Inaugural Dignitary & Principal OEM Leader',
-    avatarImage: '/assets/subcon/inauguration_2025.jpg',
-    featuredImage: '/assets/subcon/exhibitor_pricol.jpg',
+    avatarImage: './assets/subcon/inauguration_2025.jpg',
+    featuredImage: './assets/subcon/exhibitor_pricol.jpg',
     sessionTitle: 'Inaugural Keynote: Make in India & Strategic Outsourcing Roadmap 2027',
     sessionDay: 'Day 1 · 12th May 2027',
     sessionTime: '10:00 AM – 11:30 AM',
@@ -471,28 +471,28 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     gallery: [
       {
         id: 'vm-gal-1',
-        image: '/assets/subcon/inauguration_2025.jpg',
+        image: './assets/subcon/inauguration_2025.jpg',
         caption: 'Mrs. Vanitha Mohan inaugurating SUBCON alongside CODISSIA leadership in Coimbatore',
         category: 'Inauguration Ceremony',
         year: 'SUBCON Archive',
       },
       {
         id: 'vm-gal-2',
-        image: '/assets/subcon/exhibitor_pricol.jpg',
+        image: './assets/subcon/exhibitor_pricol.jpg',
         caption: 'PRICOL Limited Principal Category Exhibitor Pavilion showcasing precision automotive assemblies',
         category: 'Principal Pavilion',
         year: 'Hall A Showcase',
       },
       {
         id: 'vm-gal-3',
-        image: '/assets/subcon/glimpse_02.jpg',
+        image: './assets/subcon/glimpse_02.jpg',
         caption: 'Buyer-vendor technical discussions inside the PRICOL pavilion during exhibition hours',
         category: 'B2B Dialogue',
         year: 'Floor Glimpse',
       },
       {
         id: 'vm-gal-4',
-        image: '/assets/subcon/part_auto_components.jpg',
+        image: './assets/subcon/part_auto_components.jpg',
         caption: 'High-precision automotive gears and machined sub-assemblies sourced from regional MSMEs',
         category: 'Component Sourcing',
         year: 'Auto Sector',
@@ -505,8 +505,8 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     designation: 'Chairman, SUBCON & CODISSIA Leadership Panel',
     organization: 'CODISSIA Intec Technology Centre, Coimbatore',
     categoryLabel: 'Event Chairman & Organising Committee',
-    avatarImage: '/assets/subcon/codissia_complex.jpg',
-    featuredImage: '/assets/subcon/codissia_complex.jpg',
+    avatarImage: './assets/subcon/codissia_complex.jpg',
+    featuredImage: './assets/subcon/codissia_complex.jpg',
     sessionTitle: 'Sourcing for Railways & Shipbuilding: ICF, Southern Railway & Cochin Shipyard',
     sessionDay: 'Day 2 · 13th May 2027',
     sessionTime: '10:30 AM – 12:00 PM',
@@ -517,28 +517,28 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     gallery: [
       {
         id: 'vt-gal-1',
-        image: '/assets/subcon/codissia_complex.jpg',
+        image: './assets/subcon/codissia_complex.jpg',
         caption: 'CODISSIA Trade Fair Complex, Coimbatore — Host venue for the 10th Edition of SUBCON 2027',
         category: 'Host Venue',
         year: 'Coimbatore',
       },
       {
         id: 'vt-gal-2',
-        image: '/assets/subcon/img_06.jpg',
+        image: './assets/subcon/img_06.jpg',
         caption: 'Post-Show Press Coverage in The Hindu, Times of India, Dinamalar & Dinakaran',
         category: 'Press & Media',
         year: 'Post Show Report',
       },
       {
         id: 'vt-gal-3',
-        image: '/assets/subcon/glimpse_01.jpg',
+        image: './assets/subcon/glimpse_01.jpg',
         caption: 'Agarwal Bearings & ETK exhibition stall engaging industrial buyers on the trade floor',
         category: 'Exhibition Floor',
         year: 'Hall A',
       },
       {
         id: 'vt-gal-4',
-        image: '/assets/subcon/glimpse_06.jpg',
+        image: './assets/subcon/glimpse_06.jpg',
         caption: 'VST Tillers Tractors Ltd (Mysuru) precision components pavilion at SUBCON',
         category: 'Inter-State Exhibitors',
         year: 'Karnataka Pavilion',
@@ -551,8 +551,8 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     designation: 'Nodal Officer — PSU Indigenization & Vendor Registration',
     organization: 'Defence & Central PSU Directorate (BEL · BEML · HAL · BHEL · NLC)',
     categoryLabel: 'Defence & Central PSU Procurement Track',
-    avatarImage: '/assets/subcon/factory_engineers.jpg',
-    featuredImage: '/assets/subcon/glimpse_07.jpg',
+    avatarImage: './assets/subcon/factory_engineers.jpg',
+    featuredImage: './assets/subcon/glimpse_07.jpg',
     sessionTitle: 'Vendor Registration Clinic: HAL, BEL, BEML, BHEL & Ordnance Factories',
     sessionDay: 'Day 1 · 12th May 2027',
     sessionTime: '12:00 PM – 01:30 PM',
@@ -563,28 +563,28 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     gallery: [
       {
         id: 'ks-gal-1',
-        image: '/assets/subcon/factory_engineers.jpg',
+        image: './assets/subcon/factory_engineers.jpg',
         caption: 'Procurement and quality audit engineers inspecting shop-floor manufacturing capabilities',
         category: 'Quality Audit',
         year: 'PSU Standards',
       },
       {
         id: 'ks-gal-2',
-        image: '/assets/subcon/glimpse_07.jpg',
+        image: './assets/subcon/glimpse_07.jpg',
         caption: 'Oriental Plants & Equipments Pvt Ltd showcasing heavy industrial process assemblies',
         category: 'Heavy Engineering',
         year: 'SUBCON Pavilion',
       },
       {
         id: 'ks-gal-3',
-        image: '/assets/subcon/glimpse_15.jpg',
+        image: './assets/subcon/glimpse_15.jpg',
         caption: 'VMT precision engineering stall demonstrating large-scale industrial components',
         category: 'Precision Components',
         year: 'SUBCON Floor',
       },
       {
         id: 'ks-gal-4',
-        image: '/assets/subcon/part_hydraulics.jpg',
+        image: './assets/subcon/part_hydraulics.jpg',
         caption: 'High-pressure hydraulic and pneumatic actuators for earth-moving and defence platforms',
         category: 'Sub-Assemblies',
         year: 'Defence & PSU',
@@ -597,8 +597,8 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     designation: 'Chief Technical Advisor — Advanced Manufacturing',
     organization: 'TANCAM (Tamil Nadu Centre of Excellence for Advanced Manufacturing)',
     categoryLabel: 'Industry 4.0, Laser & Surface Engineering',
-    avatarImage: '/assets/subcon/part_automation.jpg',
-    featuredImage: '/assets/subcon/exhibitor_erfolg.jpg',
+    avatarImage: './assets/subcon/part_automation.jpg',
+    featuredImage: './assets/subcon/exhibitor_erfolg.jpg',
     sessionTitle: 'Digital Twin, Industrial 3D Printing & Low-Cost Robotics for MSMEs',
     sessionDay: 'Day 2 · 13th May 2027',
     sessionTime: '03:15 PM – 04:45 PM',
@@ -609,28 +609,28 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     gallery: [
       {
         id: 'rs-gal-1',
-        image: '/assets/subcon/exhibitor_erfolg.jpg',
+        image: './assets/subcon/exhibitor_erfolg.jpg',
         caption: 'ERFOLG Industries Gold Category Exhibitor stall featuring advanced industrial solutions',
         category: 'Gold Exhibitor',
         year: 'Hall A',
       },
       {
         id: 'rs-gal-2',
-        image: '/assets/subcon/glimpse_05.jpg',
+        image: './assets/subcon/glimpse_05.jpg',
         caption: 'Live CNC fiber laser cutting table demonstration drawing large buyer crowds at SUBCON',
         category: 'Live Machinery Demo',
         year: 'Exhibition Floor',
       },
       {
         id: 'rs-gal-3',
-        image: '/assets/subcon/process_laser_other.jpg',
+        image: './assets/subcon/process_laser_other.jpg',
         caption: 'High-speed waterjet and laser cutting for intricate aerospace and sheet metal profiles',
         category: 'Advanced Processes',
         year: 'Process Showcase',
       },
       {
         id: 'rs-gal-4',
-        image: '/assets/subcon/exhibitor_alpine.jpg',
+        image: './assets/subcon/exhibitor_alpine.jpg',
         caption: 'Alpine Tapes & Packs Pvt Ltd Silver Category Exhibitor stall',
         category: 'Silver Exhibitor',
         year: 'Specialty Packaging',
@@ -643,8 +643,8 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     designation: 'Director of Metallurgy & Precision Machining Track',
     organization: 'Coimbatore Foundry & Machine Tool Cluster Council',
     categoryLabel: 'Foundry, CNC Machining & Tooling',
-    avatarImage: '/assets/subcon/process_machining.jpg',
-    featuredImage: '/assets/subcon/glimpse_12.jpg',
+    avatarImage: './assets/subcon/process_machining.jpg',
+    featuredImage: './assets/subcon/glimpse_12.jpg',
     sessionTitle: 'Zero-Defect Investment Casting, Lost-Wax & Centrifugal Foundry Practices',
     sessionDay: 'Day 1 · 12th May 2027',
     sessionTime: '02:30 PM – 04:30 PM',
@@ -655,28 +655,28 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     gallery: [
       {
         id: 'sk-gal-1',
-        image: '/assets/subcon/glimpse_12.jpg',
+        image: './assets/subcon/glimpse_12.jpg',
         caption: 'Shubh Castings stall displaying precision ferrous and non-ferrous cast components',
         category: 'Foundry Showcase',
         year: 'SUBCON Floor',
       },
       {
         id: 'sk-gal-2',
-        image: '/assets/subcon/process_casting.jpg',
+        image: './assets/subcon/process_casting.jpg',
         caption: 'Molten metal pouring and high-precision forging operations in the Coimbatore cluster',
         category: 'Casting & Forging',
         year: 'Core Process',
       },
       {
         id: 'sk-gal-3',
-        image: '/assets/subcon/process_machining.jpg',
+        image: './assets/subcon/process_machining.jpg',
         caption: 'High-speed VMC milling and CNC turning of complex industrial housings',
         category: 'CNC Machining',
         year: 'Core Process',
       },
       {
         id: 'sk-gal-4',
-        image: '/assets/subcon/glimpse_16.jpg',
+        image: './assets/subcon/glimpse_16.jpg',
         caption: 'CompAir & industrial air/pneumatic systems pavilion at SUBCON',
         category: 'Industrial Systems',
         year: 'SUBCON Floor',
@@ -691,7 +691,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Inauguration of SUBCON by Mrs. Vanitha Mohan',
     subtitle: 'Chairman, PRICOL Limited lighting the ceremonial lamp with CODISSIA office bearers',
     category: 'Inauguration & Keynotes',
-    image: '/assets/subcon/inauguration_2025.jpg',
+    image: './assets/subcon/inauguration_2025.jpg',
     exhibitorOrHighlight: 'Chief Guest Inauguration',
   },
   {
@@ -699,7 +699,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'CODISSIA Trade Fair Complex, Coimbatore',
     subtitle: 'Host venue for the 10th Edition of SUBCON 2027 (12th – 14th May 2027)',
     category: 'Inauguration & Keynotes',
-    image: '/assets/subcon/codissia_complex.jpg',
+    image: './assets/subcon/codissia_complex.jpg',
     exhibitorOrHighlight: 'CODISSIA Venue',
   },
   {
@@ -707,7 +707,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'PRICOL Limited — Principal Category Exhibitor',
     subtitle: 'Flagship OEM pavilion connecting with precision component subcontractors',
     category: 'Special Category Stalls',
-    image: '/assets/subcon/exhibitor_pricol.jpg',
+    image: './assets/subcon/exhibitor_pricol.jpg',
     exhibitorOrHighlight: 'PRICOL Limited',
   },
   {
@@ -715,7 +715,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'ERFOLG Industries — Gold Category Exhibitor',
     subtitle: 'Showcasing specialized industrial engineering and manufacturing capabilities',
     category: 'Special Category Stalls',
-    image: '/assets/subcon/exhibitor_erfolg.jpg',
+    image: './assets/subcon/exhibitor_erfolg.jpg',
     exhibitorOrHighlight: 'ERFOLG Industries',
   },
   {
@@ -723,7 +723,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Alpine Tapes & Packs Pvt Ltd — Silver Category Exhibitor',
     subtitle: 'Industrial packaging, specialty tapes, and B2B supply solutions',
     category: 'Special Category Stalls',
-    image: '/assets/subcon/exhibitor_alpine.jpg',
+    image: './assets/subcon/exhibitor_alpine.jpg',
     exhibitorOrHighlight: 'Alpine Tapes & Packs',
   },
   {
@@ -731,7 +731,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Agarwal Bearings & ETK Pavilion',
     subtitle: 'Precision bearings and rotating equipment components showcase',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_01.jpg',
+    image: './assets/subcon/glimpse_01.jpg',
     exhibitorOrHighlight: 'Agarwal Bearings',
   },
   {
@@ -739,7 +739,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Aura Engineering Products Stall',
     subtitle: 'Industrial valves, fittings, and machined sub-assemblies',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_03.jpg',
+    image: './assets/subcon/glimpse_03.jpg',
     exhibitorOrHighlight: 'Aura Engineering',
   },
   {
@@ -747,7 +747,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Suriya Equipments Pavilion',
     subtitle: 'Custom industrial fabrication and process equipment stall',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_04.jpg',
+    image: './assets/subcon/glimpse_04.jpg',
     exhibitorOrHighlight: 'Suriya Equipments',
   },
   {
@@ -755,7 +755,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Live CNC Fiber Laser Cutting Machine Demo',
     subtitle: 'High-speed sheet metal laser cutting demonstration on the exhibition floor',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_05.jpg',
+    image: './assets/subcon/glimpse_05.jpg',
     exhibitorOrHighlight: 'Laser Machinery Live Demo',
   },
   {
@@ -763,7 +763,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'VST Tillers Tractors Ltd — Mysuru',
     subtitle: 'Precision automotive and agricultural powertrain components unit',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_06.jpg',
+    image: './assets/subcon/glimpse_06.jpg',
     exhibitorOrHighlight: 'VST Tillers Tractors',
   },
   {
@@ -771,7 +771,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Oriental Plants & Equipments Pvt Ltd',
     subtitle: 'Turnkey process machinery and heavy fabrication pavilion',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_07.jpg',
+    image: './assets/subcon/glimpse_07.jpg',
     exhibitorOrHighlight: 'Oriental Plants & Equipments',
   },
   {
@@ -779,7 +779,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Typhoon Electrodes & Welding Systems',
     subtitle: 'Advanced arc, MIG, and TIG welding consumables and equipment',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_08.jpg',
+    image: './assets/subcon/glimpse_08.jpg',
     exhibitorOrHighlight: 'Typhoon Electrodes',
   },
   {
@@ -787,7 +787,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Best Engineering & Machining Stall',
     subtitle: 'High-precision CNC turned and milled industrial components',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_11.jpg',
+    image: './assets/subcon/glimpse_11.jpg',
     exhibitorOrHighlight: 'Best Engineering',
   },
   {
@@ -795,7 +795,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Shubh Castings Foundry Showcase',
     subtitle: 'Intricate sand, shell, and investment castings for OEM buyers',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_12.jpg',
+    image: './assets/subcon/glimpse_12.jpg',
     exhibitorOrHighlight: 'Shubh Castings',
   },
   {
@@ -803,7 +803,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'VMT Precision Industrial Solutions',
     subtitle: 'Sub-assembly manufacturing and tooling consultations',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_15.jpg',
+    image: './assets/subcon/glimpse_15.jpg',
     exhibitorOrHighlight: 'VMT Pavilion',
   },
   {
@@ -811,7 +811,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'CompAir Compressed Air & Pneumatics',
     subtitle: 'Energy-efficient industrial compressors and pneumatic systems',
     category: 'Exhibition Floor Glimpses',
-    image: '/assets/subcon/glimpse_16.jpg',
+    image: './assets/subcon/glimpse_16.jpg',
     exhibitorOrHighlight: 'CompAir Pavilion',
   },
   {
@@ -819,7 +819,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Official SUBCON 2027 Brochure — Cover',
     subtitle: '10th Edition · 12th–14th May 2027 · CODISSIA Trade Fair Complex',
     category: 'Official Brochure Pages',
-    image: '/assets/subcon/img_01.jpg',
+    image: './assets/subcon/img_01.jpg',
     exhibitorOrHighlight: 'Brochure Page 1',
   },
   {
@@ -827,7 +827,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Post Show Report & Press Releases',
     subtitle: 'Featured in Times of India, The Hindu, Dinamalar & Dinakaran',
     category: 'Official Brochure Pages',
-    image: '/assets/subcon/img_06.jpg',
+    image: './assets/subcon/img_06.jpg',
     exhibitorOrHighlight: 'Brochure Page 6',
   },
   {
@@ -835,7 +835,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Exhibitors & Visitors Feedback Analytics',
     subtitle: '98.4% recommendation rate and 86.1% Very Good quality rating',
     category: 'Official Brochure Pages',
-    image: '/assets/subcon/img_07.jpg',
+    image: './assets/subcon/img_07.jpg',
     exhibitorOrHighlight: 'Brochure Page 7',
   },
   {
@@ -843,7 +843,7 @@ export const VISUAL_GALLERY_ITEMS: GalleryItem[] = [
     title: 'Directory of 160+ Exhibitors',
     subtitle: 'Complete roster of participating MSMEs, PSUs & large enterprises',
     category: 'Official Brochure Pages',
-    image: '/assets/subcon/img_08.jpg',
+    image: './assets/subcon/img_08.jpg',
     exhibitorOrHighlight: 'Brochure Page 8',
   },
 ];

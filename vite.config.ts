@@ -20,4 +20,7 @@ export default defineConfig(() => {
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
+  export default defineConfig({
+  base: '/codissia-layout/', // Make sure to include the slashes!
+  plugins: [react()],
 });

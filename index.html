@@ -12,7 +12,20 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
+    <script type="module">
+      if (import.meta.env) {
+        import('./src/main.tsx');
+      } else {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = './assets/app.css';
+        document.head.appendChild(link);
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = './assets/app.js';
+        document.head.appendChild(script);
+      }
+    </script>
   </body>
 </html>
 

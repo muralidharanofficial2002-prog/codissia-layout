@@ -40713,7 +40713,6 @@ function Index() {
 		offset: ["start end", "end end"]
 	});
 	const footerWordY = useTransform$1(footerScroll, [0, 1], ["55%", "0%"]);
-	const footerStrokeLength = useTransform$1(footerScroll, [.1, .9], [0, 1]);
 	(0, import_react.useEffect)(() => {
 		const video = videoRef.current;
 		if (!video) return;
@@ -41226,35 +41225,14 @@ function Index() {
 								]
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "pt-10 pb-6 flex items-end justify-between gap-6 overflow-hidden",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
-									viewBox: "0 0 120 84",
-									fill: "none",
-									className: "w-20 sm:w-32 md:w-40 h-auto shrink-0 mb-1",
-									"aria-hidden": "true",
-									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion$1.path, {
-											d: "M12 52 C 28 12, 92 12, 108 52",
-											stroke: "#009EE2",
-											strokeWidth: "6",
-											strokeLinecap: "round",
-											style: { pathLength: footerStrokeLength }
-										}),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion$1.path, {
-											d: "M12 42 L 108 42",
-											stroke: "#ffffff",
-											strokeWidth: "4",
-											strokeLinecap: "round",
-											style: { pathLength: footerStrokeLength }
-										}),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion$1.path, {
-											d: "M22 58 C 42 78, 78 78, 98 58",
-											stroke: "#EF7F1A",
-											strokeWidth: "6",
-											strokeLinecap: "round",
-											style: { pathLength: footerStrokeLength }
-										})
-									]
+								className: "pt-10 pb-6 flex flex-wrap sm:flex-nowrap items-end justify-between gap-6 overflow-hidden",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "inline-flex items-center bg-white rounded-2xl px-4 py-2.5 shadow-lg border border-white/15 shrink-0 mb-1",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+										src: "./assets/aistudio/logo-e-H_6sfy_529abc27.jpg",
+										alt: "CODISSIA — The Coimbatore District Small Industries Association",
+										className: "h-10 sm:h-12 md:h-14 w-auto object-contain"
+									})
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion$1.p, {
 									style: { y: footerWordY },
 									className: "text-5xl sm:text-7xl md:text-8xl lg:text-[7.5rem] font-extrabold tracking-tighter leading-[0.82] text-white select-none whitespace-nowrap",

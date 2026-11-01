@@ -70,7 +70,6 @@ export default function Index() {
     offset: ['start end', 'end end'],
   });
   const footerWordY = useTransform(footerScroll, [0, 1], ['55%', '0%']);
-  const footerStrokeLength = useTransform(footerScroll, [0.1, 0.9], [0, 1]);
 
   // Vanilla JS video fade logic via refs
   useEffect(() => {
@@ -594,36 +593,15 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Linea #footer__brand Rising Monumental Wordmark + Self-Drawing SUBCON Globe/Gear SVG Mark */}
-          <div className="pt-10 pb-6 flex items-end justify-between gap-6 overflow-hidden">
-            <svg
-              viewBox="0 0 120 84"
-              fill="none"
-              className="w-20 sm:w-32 md:w-40 h-auto shrink-0 mb-1"
-              aria-hidden="true"
-            >
-              <motion.path
-                d="M12 52 C 28 12, 92 12, 108 52"
-                stroke="#009EE2"
-                strokeWidth="6"
-                strokeLinecap="round"
-                style={{ pathLength: footerStrokeLength }}
+          {/* Linea #footer__brand Rising Monumental Wordmark + Official CODISSIA Logo */}
+          <div className="pt-10 pb-6 flex flex-wrap sm:flex-nowrap items-end justify-between gap-6 overflow-hidden">
+            <div className="inline-flex items-center bg-white rounded-2xl px-4 py-2.5 shadow-lg border border-white/15 shrink-0 mb-1">
+              <img
+                src="./assets/aistudio/logo-e-H_6sfy_529abc27.jpg"
+                alt="CODISSIA — The Coimbatore District Small Industries Association"
+                className="h-10 sm:h-12 md:h-14 w-auto object-contain"
               />
-              <motion.path
-                d="M12 42 L 108 42"
-                stroke="#ffffff"
-                strokeWidth="4"
-                strokeLinecap="round"
-                style={{ pathLength: footerStrokeLength }}
-              />
-              <motion.path
-                d="M22 58 C 42 78, 78 78, 98 58"
-                stroke="#EF7F1A"
-                strokeWidth="6"
-                strokeLinecap="round"
-                style={{ pathLength: footerStrokeLength }}
-              />
-            </svg>
+            </div>
 
             <motion.p
               style={{ y: footerWordY }}
